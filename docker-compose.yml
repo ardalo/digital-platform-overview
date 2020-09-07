@@ -1,5 +1,12 @@
 version: '3'
 services:
+  platform-gateway:
+    build: ../platform-gateway
+    image: ardalo-digital-platform/platform-gateway:latest
+    ports:
+      - 8080:8080
+    environment:
+      SPRING_PROFILES_ACTIVE: local
   frontpage-service:
     build: ../frontpage-service
     image: ardalo-digital-platform/frontpage-service:latest
