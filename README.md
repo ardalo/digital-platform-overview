@@ -8,6 +8,6 @@ The Platform consists of the following components:
   * The [Frontpage-Service](https://github.com/ardalo/frontpage-service) which delivers the public frontpage
 
 ## Start whole Platform using docker-compose
-```bash
+```console
 $ docker-compose build && docker-compose up
 ```
