@@ -8,8 +8,8 @@ The Platform consists of the following components:
   * The [Frontpage-Service](https://github.com/ardalo/frontpage-service) which delivers the public frontpage
 
 The Ardalo Digital Platform utilizes the following external services:
-  * [GitHub](https://github.com/ardalo?tab=repositories) | Source Code Hosting, Version Control System and CI/CD pipeline
-  * [SonarCloud](https://sonarcloud.io/organizations/ardalo/projects) | Static Code Analysis
+  * [GitHub](https://github.com/ardalo?tab=repositories) - Source Code Hosting, Version Control System and CI/CD pipeline
+  * [SonarCloud](https://sonarcloud.io/organizations/ardalo/projects) - Static Code Analysis
 
 ## Start whole Platform using docker-compose
 ```console
