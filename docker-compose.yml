@@ -14,3 +14,8 @@ services:
       - 8081:8081
     environment:
       SPRING_PROFILES_ACTIVE: local
+  footer-service:
+    build: ../footer-service
+    image: ardalo-digital-platform/footer-service:latest
+    ports:
+      - 8082:8082
