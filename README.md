@@ -14,6 +14,7 @@ The Platform consists of the following components:
 The Ardalo Digital Platform utilizes the following external services:
   * [GitHub](https://github.com/ardalo?tab=repositories) - Source Code Hosting, Version Control System and CI/CD pipeline
   * [SonarCloud](https://sonarcloud.io/organizations/ardalo/projects) - Static Code Analysis
+  * [Amazon Elastic Container Registry](https://eu-central-1.console.aws.amazon.com/ecr/repositories/ardalo) - Docker Container Registry
 
 ## Start whole Platform using docker-compose
 ```console
